@@ -22,7 +22,7 @@
 				<Tool Name="VFPreLinkEventTool"/>
 				<Tool Name="VFPreBuildEventTool"/>
 				<Tool Name="VFPostBuildEventTool"/></Configuration>
-		<Configuration Name="Debug|x64" OutputDirectory="../../lib/x64" TargetName="libjsonfortrand" ConfigurationType="typeStaticLibrary">
+		<Configuration Name="Debug|x64" UseCompiler="ifxCompiler" OutputDirectory="../../lib/x64" TargetName="libjsonfortrand" ConfigurationType="typeStaticLibrary">
 				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" Preprocess="preprocessYes" AdditionalIncludeDirectories="../../src" StandardWarnings="standardWarningsF15" StandardWarningsAsErrors="true" Diagnostics="diagnosticsShowAll" WarnDeclarations="true" WarnUnusedVariables="true" WarnIgnoreLOC="true" WarnTruncateSource="true" WarnUncalled="true" WarnInterfaces="true" ModulePath="$(OutDir)\" Traceback="true" NullPointerCheck="true" BoundsCheck="true" UninitializedVariablesCheck="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebug"/>
 				<Tool Name="VFLibrarianTool"/>
 				<Tool Name="VFResourceCompilerTool"/>
@@ -31,7 +31,7 @@
 				<Tool Name="VFPreLinkEventTool"/>
 				<Tool Name="VFPreBuildEventTool"/>
 				<Tool Name="VFPostBuildEventTool"/></Configuration>
-		<Configuration Name="Release|x64" OutputDirectory="../../lib/x64" TargetName="libjsonfortran" ConfigurationType="typeStaticLibrary">
+		<Configuration Name="Release|x64" UseCompiler="ifxCompiler" OutputDirectory="../../lib/x64" TargetName="libjsonfortran" ConfigurationType="typeStaticLibrary">
 				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" Preprocess="preprocessYes" AdditionalIncludeDirectories="../../src" ModulePath="$(OutDir)\"/>
 				<Tool Name="VFLibrarianTool"/>
 				<Tool Name="VFResourceCompilerTool"/>
