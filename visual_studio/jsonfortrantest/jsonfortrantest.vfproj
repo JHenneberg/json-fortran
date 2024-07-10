@@ -24,7 +24,7 @@
 				<Tool Name="VFPreBuildEventTool"/>
 				<Tool Name="VFPostBuildEventTool"/>
 				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
-		<Configuration Name="Debug|x64" OutputDirectory="../../bin" TargetName="$(ProjectName)d">
+		<Configuration Name="Debug|x64" UseCompiler="ifxCompiler" OutputDirectory="../../bin" TargetName="$(ProjectName)d">
 				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" MultiProcessorCompilation="true" Optimization="optimizeDisabled" Preprocess="preprocessYes" AdditionalIncludeDirectories="../jsonfortranlib/x64/Debug" PreprocessorDefinitions="INTEGRATED_TESTS" StandardWarnings="standardWarningsF15" StandardWarningsAsErrors="true" Diagnostics="diagnosticsShowAll" WarnInterfaces="true" Traceback="true" BoundsCheck="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebug"/>
 				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" AdditionalLibraryDirectories="../../lib/x64" GenerateDebugInformation="true" SubSystem="subSystemConsole" AdditionalDependencies="libjsonfortrand.lib"/>
 				<Tool Name="VFResourceCompilerTool"/>
@@ -34,7 +34,7 @@
 				<Tool Name="VFPreBuildEventTool"/>
 				<Tool Name="VFPostBuildEventTool"/>
 				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
-		<Configuration Name="Release|x64" OutputDirectory="../../bin">
+		<Configuration Name="Release|x64" UseCompiler="ifxCompiler" OutputDirectory="../../bin">
 				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" MultiProcessorCompilation="true" Preprocess="preprocessYes" AdditionalIncludeDirectories="../jsonfortranlib/x64/Release" PreprocessorDefinitions="INTEGRATED_TESTS"/>
 				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" AdditionalLibraryDirectories="../../lib/x64" SubSystem="subSystemConsole" AdditionalDependencies="libjsonfortran.lib"/>
 				<Tool Name="VFResourceCompilerTool"/>
